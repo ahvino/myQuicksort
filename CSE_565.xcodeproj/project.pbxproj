@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4FC2552505E49900FC82B3 /* SortTestCases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C4FC2542505E49900FC82B3 /* SortTestCases.cpp */; };
+		0C4FC2572505E63300FC82B3 /* catch.h in Sources */ = {isa = PBXBuildFile; fileRef = 0C4FC2562505E63300FC82B3 /* catch.h */; };
 		0C640A2A24F4988800A031E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C640A2924F4988800A031E6 /* main.cpp */; };
+		0C640A3224F498AD00A031E6 /* myQuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C640A3024F498AD00A031E6 /* myQuickSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C4FC2542505E49900FC82B3 /* SortTestCases.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortTestCases.cpp; sourceTree = "<group>"; };
+		0C4FC2562505E63300FC82B3 /* catch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = catch.h; sourceTree = "<group>"; };
 		0C640A2624F4988800A031E6 /* CSE_565 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSE_565; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C640A2924F4988800A031E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0C640A3024F498AD00A031E6 /* myQuickSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myQuickSort.cpp; sourceTree = "<group>"; };
+		0C640A3124F498AD00A031E6 /* myQuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myQuickSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				0C640A2924F4988800A031E6 /* main.cpp */,
+				0C640A3024F498AD00A031E6 /* myQuickSort.cpp */,
+				0C640A3124F498AD00A031E6 /* myQuickSort.h */,
+				0C4FC2542505E49900FC82B3 /* SortTestCases.cpp */,
+				0C4FC2562505E63300FC82B3 /* catch.h */,
 			);
 			path = CSE_565;
 			sourceTree = "<group>";
@@ -88,7 +99,7 @@
 		0C640A1E24F4988800A031E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = samai;
 				TargetAttributes = {
 					0C640A2524F4988800A031E6 = {
@@ -119,7 +130,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4FC2552505E49900FC82B3 /* SortTestCases.cpp in Sources */,
+				0C4FC2572505E63300FC82B3 /* catch.h in Sources */,
 				0C640A2A24F4988800A031E6 /* main.cpp in Sources */,
+				0C640A3224F498AD00A031E6 /* myQuickSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +252,7 @@
 		0C640A2E24F4988800A031E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -246,6 +261,7 @@
 		0C640A2F24F4988800A031E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
