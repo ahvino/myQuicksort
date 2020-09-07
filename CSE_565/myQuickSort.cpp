@@ -13,7 +13,6 @@ int middle;
 
 void mySort(int mArray[], int lt, int rt)
 {
-        
     if(lt < rt)
     {
         middle = partition(mArray, lt, rt);

@@ -10,10 +10,9 @@
 #define myQuickSort_h
 
 #include <stdio.h>
-#include <vector>
-
 
 void mySort(int mArraay[], int lt, int rt);
+
 int partition(int array[], int left, int right);
 
 #endif /* myQuickSort_h */
